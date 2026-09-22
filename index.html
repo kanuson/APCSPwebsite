@@ -1,85 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Homepage</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-  <link rel="icon" type="image/png" href="https://codehs.com/uploads/b3332db1e89cd3b73725dc867fe06c50">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Added missing Bootstrap JS library so the mobile menu can expand -->
+    <script src="https://bootstrapcdn.com"></script>
+    <link rel="icon" type="image/png" href="https://codehs.com/uploads/b3332db1e89cd3b73725dc867fe06c50">
 </head>
-
 <body>
 
-  <div>
     <nav class="myNav navbar navbar-default">
-      <div class="container-fluid">
-
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-          <a class="navbar-brand" href="index.html">Kanus Website</a>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Kanus Website</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="bio.html">Bio</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="bio.html">Bio</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            
-
-          </ul>
-        </div>
-
-      </div>
     </nav>
- 
 
-  <div class="parallax"></div>
+    <div class="parallax"></div>
 
-  <h1 class="text-center">
-    Hello! Welcome to my website, click Bio to know more about me!
-  </h1>
+    <h1 class="text-center">Hello! Welcome to my website, click Bio to know more about me!</h1>
 
-   <footer class="site-footer">
+    <footer class="site-footer">
+        <p>Created by Kanu Soni &copy; 2026</p>
+        <p>
+            <a href="https://granadahigh.livermoreschools.org/" target="_blank">Granada High School</a> | 
+            <a href="mailto:kanu.son@lvjusd.org">Email Me</a>
+        </p>
+        <div class="button-container">
+            <a href="https://www.youtube.com/" class="button" target="_blank">
+                <span class="glyphicon glyphicon-play icon"></span>
+            </a>
+            <a href="https://open.spotify.com/" class="button" target="_blank">
+                <span class="glyphicon glyphicon-music icon"></span>
+            </a>
+            <a href="https://www.pinterest.com/" class="button" target="_blank">
+                <span class="glyphicon glyphicon-heart icon"></span>
+            </a>
+        </div>
+    </footer>
 
-  <p>
-    Created by Kanu Soni &copy; 2026
-  </p>
-
-  <p>
-    <a href="https://granadahigh.livermoreschools.org/" target="_blank">
-      Granada High School
-    </a>
-    |
-    <a href="mailto:kanu.son@lvjusd.org">
-      Email Me
-    </a>
-  </p>
-
-  <div class="button-container">
-
-    <a href="https://www.youtube.com/" class="button" target="_blank">
-      <span class="glyphicon glyphicon-play icon"></span>
-    </a>
-
-    <a href="https://open.spotify.com/" class="button" target="_blank">
-      <span class="glyphicon glyphicon-music icon"></span>
-    </a>
-
-    <a href="https://www.pinterest.com/" class="button" target="_blank">
-      <span class="glyphicon glyphicon-heart icon"></span>
-    </a>
-
-  </div>
-
-</footer>
 </body>
 </html>
