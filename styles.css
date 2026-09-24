@@ -65,7 +65,7 @@ nav li:hover {
 }
 
 
-/* Bio Images */
+
 .bio-images {
   display: flex;
   justify-content: center;
@@ -75,13 +75,12 @@ nav li:hover {
 }
 
 .bio-images img {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 10px;
+  width: 200px;
+  height: auto;
+  margin: 10px;
 }
 
-/* Projects Page */
+
 
 html {
   scroll-behavior: smooth;
