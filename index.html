@@ -36,6 +36,9 @@
     <div class="parallax"></div>
 
     <h1 class="text-center">Hello! Welcome to my website, click Bio to know more about me!</h1>
+    <button onclick="changeMessage()">Click Me!</button>
+
+<p id="message">Welcome to my website!</p>
 
     <footer class="site-footer">
         <p>Created by Kanu Soni &copy; 2026</p>
@@ -55,6 +58,11 @@
             </a>
         </div>
     </footer>
+    <script>
+function changeMessage() {
+    document.getElementById("message").innerHTML = "Thanks for visiting my website!";
+}
+</script>
 
 </body>
 </html>
